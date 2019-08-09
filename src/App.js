@@ -1,26 +1,64 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import TorontoWeather from "../src/components/TorontoWeather";
+import MontrealWeather from "../src/components/MontrealWeather";
+import PhotoGallery from "../src/components/PhotoGallery";
+import PhotoList from "./components/PhotoList";
+import Contact from "./components/Contact";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import '../src/assets/css/App.css'
 
-function App() {
+function getWeatherToronto() {
+  return <TorontoWeather />;
+}
+
+function getWeatherMontreal() {
+  return <MontrealWeather />
+}
+
+function getGallery() {
+  return <PhotoGallery />
+}
+
+function getPhotoList() {
+  return <PhotoList />;
+}
+
+function getContactForm() {
+  return <Contact />;
+}
+
+function AppRouter() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/weather/toronto">Toronto Weather</Link>
+            </li>
+            <li>
+              <Link to="/weather/montreal">Montreal Weather</Link>
+            </li>
+            <li>
+              <Link to="/gallery">Photo Gallery</Link>
+            </li>
+            <li>
+              <Link to="/api/photo">Photo List</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact Us</Link>
+            </li>
+          </ul>
+        </nav>
+
+        <Route path="/weather/toronto" component={getWeatherToronto} />
+        <Route path="/weather/montreal" component={getWeatherMontreal} />
+        <Route path="/gallery" component={getGallery} />
+        <Route path="/api/photo" component={getPhotoList} />
+        <Route path="/contact" component={getContactForm} />
+      </div>
+    </Router>
   );
 }
 
-export default App;
+export default AppRouter;
