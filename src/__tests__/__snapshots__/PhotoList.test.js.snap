@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PhotoList Component Snapshot testing photolist component 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "fff",
+      "margin": "0 auto",
+      "maxWidth": 600,
+      "padding": 20,
+      "width": "100%",
+    }
+  }
+>
+  <div
+    className="MuiPaper-root-67 MuiPaper-elevation3-72 MuiPaper-rounded-68"
+  >
+    <ul
+      className="MuiList-root-94 MuiList-padding-95"
+    >
+      <h3
+        className="MuiTypography-root-98 MuiTypography-display1-102 MuiTypography-gutterBottom-115 MuiTypography-alignCenter-111"
+      >
+        Photo List
+      </h3>
+      <li
+        className="MuiListItem-root-123 MuiListItem-default-126 MuiListItem-gutters-130"
+        disabled={false}
+      >
+        <h4
+          className="MuiTypography-root-98 MuiTypography-subheading-105 MuiTypography-gutterBottom-115 MuiTypography-alignLeft-110"
+        >
+          <div
+            className="text-center"
+          >
+            <a
+              href="https://res.cloudinary.com/asgard83/image/upload/v1565280282/CNreflection.jpg"
+            >
+              <h3>
+                CN Tower Reflection
+              </h3>
+            </a>
+          </div>
+          <div
+            className="text-center"
+          >
+            <a
+              href="https://res.cloudinary.com/asgard83/image/upload/v1565280282/Biosphere.jpg"
+            >
+              <h3>
+                Biosphere
+              </h3>
+            </a>
+          </div>
+          <div
+            className="text-center"
+          >
+            <a
+              href="https://res.cloudinary.com/asgard83/image/upload/v1565280282/TOpurple.jpg"
+            >
+              <h3>
+                Purple Skyline Toronto
+              </h3>
+            </a>
+          </div>
+          <div
+            className="text-center"
+          >
+            <a
+              href="https://res.cloudinary.com/asgard83/image/upload/v1565280281/Tonpsq.jpg"
+            >
+              <h3>
+                Nathan Phillip Square
+              </h3>
+            </a>
+          </div>
+          <div
+            className="text-center"
+          >
+            <a
+              href="https://res.cloudinary.com/asgard83/image/upload/v1565280281/Gooderham.jpg"
+            >
+              <h3>
+                Gooderham Building
+              </h3>
+            </a>
+          </div>
+          <div
+            className="text-center"
+          >
+            <a
+              href="https://res.cloudinary.com/asgard83/image/upload/v1565280281/MontrealP.jpg"
+            >
+              <h3>
+                Montreal Purple Skyline
+              </h3>
+            </a>
+          </div>
+          <div
+            className="text-center"
+          >
+            <a
+              href="https://res.cloudinary.com/asgard83/image/upload/v1565280281/ToW.jpg"
+            >
+              <h3>
+                Toronto Winter
+              </h3>
+            </a>
+          </div>
+          <div
+            className="text-center"
+          >
+            <a
+              href="https://res.cloudinary.com/asgard83/image/upload/v1565280281/MoW.jpg"
+            >
+              <h3>
+                Montreal Winter
+              </h3>
+            </a>
+          </div>
+          <div
+            className="text-center"
+          >
+            <a
+              href="https://res.cloudinary.com/asgard83/image/upload/v1565280281/MoS.jpg"
+            >
+              <h3>
+                Montreal Skyline
+              </h3>
+            </a>
+          </div>
+          <div
+            className="text-center"
+          >
+            <a
+              href="https://res.cloudinary.com/asgard83/image/upload/v1565280281/Mobr.jpg"
+            >
+              <h3>
+                Bridge
+              </h3>
+            </a>
+          </div>
+        </h4>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

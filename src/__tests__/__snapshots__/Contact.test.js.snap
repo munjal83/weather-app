@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact Component Snapshot testing contact component 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "fff",
+      "display": "flex",
+      "flexWrap": "wrap",
+      "margin": "0 auto",
+      "maxWidth": 800,
+      "padding": 20,
+      "width": "100%",
+    }
+  }
+>
+  <div
+    className="MuiPaper-root-118 MuiPaper-elevation3-123 MuiPaper-rounded-119"
+  >
+    <h3
+      className="MuiTypography-root-145 MuiTypography-display1-149 MuiTypography-gutterBottom-162 MuiTypography-alignCenter-158"
+    >
+      Contact Us
+    </h3>
+    <div
+      className="MuiFormControl-root-170"
+      style={
+        Object {
+          "margin": 20,
+        }
+      }
+    >
+      <label
+        className="MuiFormLabel-root-179 MuiInputLabel-root-174 MuiInputLabel-formControl-175 MuiInputLabel-animated-178"
+        data-shrink={false}
+        htmlFor="name-simple"
+      >
+        Name
+      </label>
+      <div
+        className="MuiInput-root-186 MuiInput-formControl-187 MuiInput-underline-190"
+      >
+        <input
+          aria-invalid={false}
+          className="MuiInput-input-194"
+          disabled={false}
+          name="name"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={false}
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="MuiFormControl-root-170"
+      style={
+        Object {
+          "margin": 20,
+        }
+      }
+    >
+      <label
+        className="MuiFormLabel-root-179 MuiInputLabel-root-174 MuiInputLabel-formControl-175 MuiInputLabel-animated-178"
+        data-shrink={false}
+        htmlFor="phone-simple"
+      >
+        Phone Number
+      </label>
+      <div
+        className="MuiInput-root-186 MuiInput-formControl-187 MuiInput-underline-190"
+      >
+        <input
+          aria-invalid={false}
+          className="MuiInput-input-194"
+          disabled={false}
+          name="phone"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={false}
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="MuiFormControl-root-170"
+      style={
+        Object {
+          "margin": 20,
+        }
+      }
+    >
+      <label
+        className="MuiFormLabel-root-179 MuiInputLabel-root-174 MuiInputLabel-formControl-175 MuiInputLabel-animated-178"
+        data-shrink={false}
+        htmlFor="email-simple"
+      >
+        Email
+      </label>
+      <div
+        className="MuiInput-root-186 MuiInput-formControl-187 MuiInput-underline-190"
+      >
+        <input
+          aria-invalid={false}
+          className="MuiInput-input-194"
+          disabled={false}
+          name="email"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={false}
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <a
+      className="MuiButtonBase-root-225 MuiButton-root-199 MuiButton-contained-210 MuiButton-containedPrimary-211 MuiButton-raised-213 MuiButton-raisedPrimary-214"
+      href="mailto:admin@example.com"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      style={
+        Object {
+          "margin": 10,
+        }
+      }
+      tabIndex="0"
+    >
+      <span
+        className="MuiButton-label-200"
+      >
+        Contact Us
+      </span>
+      <span
+        className="MuiTouchRipple-root-228"
+      />
+    </a>
+  </div>
+</div>
+`;

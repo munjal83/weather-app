@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component Snapshot testing app component 1`] = `
+<div>
+  <nav>
+    <ul>
+      <li>
+        <a
+          href="/weather/toronto"
+          onClick={[Function]}
+        >
+          Toronto Weather
+        </a>
+      </li>
+      <li>
+        <a
+          href="/weather/montreal"
+          onClick={[Function]}
+        >
+          Montreal Weather
+        </a>
+      </li>
+      <li>
+        <a
+          href="/gallery"
+          onClick={[Function]}
+        >
+          Photo Gallery
+        </a>
+      </li>
+      <li>
+        <a
+          href="/api/photo"
+          onClick={[Function]}
+        >
+          Photo List
+        </a>
+      </li>
+      <li>
+        <a
+          href="/contact"
+          onClick={[Function]}
+        >
+          Contact Us
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;

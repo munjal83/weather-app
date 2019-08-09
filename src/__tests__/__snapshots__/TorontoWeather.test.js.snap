@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TorontoWeather Component Snapshot testing torontoweather component 1`] = `
+<div>
+  <div>
+    <div
+      className="MuiPaper-root-53 MuiPaper-elevation3-58 MuiPaper-rounded-54"
+      style={
+        Object {
+          "margin": "0 300px 20px 300px",
+          "padding": 20,
+        }
+      }
+    >
+      <h3
+        className="MuiTypography-root-80 MuiTypography-display1-84 MuiTypography-gutterBottom-97 MuiTypography-alignCenter-93"
+      >
+        Today's Weather
+      </h3>
+      <p
+        className="MuiTypography-root-80 MuiTypography-title-86 MuiTypography-colorSecondary-101 MuiTypography-gutterBottom-97 MuiTypography-alignCenter-93"
+      >
+        City: 
+        Toronto
+      </p>
+      <p
+        className="MuiTypography-root-80 MuiTypography-title-86 MuiTypography-colorSecondary-101 MuiTypography-gutterBottom-97 MuiTypography-alignCenter-93"
+      >
+        Last Updated: 
+        
+      </p>
+      <p
+        className="MuiTypography-root-80 MuiTypography-title-86 MuiTypography-colorSecondary-101 MuiTypography-gutterBottom-97 MuiTypography-alignCenter-93"
+      >
+        Feels Like: 
+        
+        °
+      </p>
+      <p
+        className="MuiTypography-root-80 MuiTypography-title-86 MuiTypography-colorSecondary-101 MuiTypography-gutterBottom-97 MuiTypography-alignCenter-93"
+      >
+        Temperature Unit: 
+        
+        °
+      </p>
+      <p
+        className="MuiTypography-root-80 MuiTypography-title-86 MuiTypography-colorSecondary-101 MuiTypography-gutterBottom-97 MuiTypography-alignCenter-93"
+      >
+        Temperature: 
+        
+        °
+      </p>
+    </div>
+  </div>
+</div>
+`;
